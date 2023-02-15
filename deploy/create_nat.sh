@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SUBNET_ID="subnet-0c8f8f8f8f8f8f8f8"
-ALLOCATION_ID="eipalloc-0c8f8f8f8f8f8f8f8"
-ROUTE_TABLE_ID="rtb-0f8f8f8f8f8f8f8f8"
+SUBNET_ID="subnet-0f290ea8bd4f975f7"
+ALLOCATION_ID="eipalloc-09b060101d2026dd0"
+ROUTE_TABLE_ID="rtb-031b05efcb74ce8aa"
 NAT_NAME="nat-lambda"
 NATID=`aws ec2 describe-nat-gateways --filter "Name=tag:Name,Values=$NAT_NAME" --filter 'Name=state,Values=available' | grep NatGatewayId | awk -F \" '{ print $4 }'`
 
@@ -14,7 +14,7 @@ if [ "$NATID" == "" ]; then
   do
     NATID=`aws ec2 describe-nat-gateways --filter "Name=tag:Name,Values=$NAT_NAME" --filter 'Name=state,Values=available' | grep NatGatewayId | awk -F \" '{ print $4 }'`
     if [ "$NATID" == "" ]; then
-      sleep 2s
+      sleep 20s
     else
       break
     fi

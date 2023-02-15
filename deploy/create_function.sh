@@ -3,8 +3,8 @@
 BASE=`pwd`/`dirname $0`
 DEPLOY_PREFIX="CacheNode"
 KEY="lambda"
-DEPLOY_FROM=0
-DEPLOY_CLUSTER=2
+DEPLOY_FROM=98
+DEPLOY_CLUSTER=100
 DEPLOY_TO=$((DEPLOY_CLUSTER-1))
 #DEPLOY_VPC="-vpc"
 DEPLOY_MEM=1024
@@ -30,8 +30,8 @@ read -p "Press any key to confirm, or ctrl-C to stop."
 
 cd $BASE/../lambda
 echo "Compiling lambda code..."
-#GOOS=linux go build
-GOOS=darwin go build
+GOOS=linux go build
+#GOOS=darwin go build
 
 echo "Compressing file..."
 zip $KEY $KEY

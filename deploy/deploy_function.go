@@ -36,11 +36,11 @@ var (
 	bucket  = flag.String("S3", "sion.default", "S3 bucket for lambda code")
 
 	subnet = []*string{
-		aws.String("subnet-0f36cee121043f5e8"),
-		aws.String("subnet-0b934b101f7859b36"),
+		aws.String("subnet-0f290ea8bd4f975f7"),
+		aws.String("subnet-0c4be172173a07d63"),
 	}
 	securityGroup = []*string{
-		aws.String("sg-016473a0859e12662"),
+		aws.String("sg-0448774ca20e15ac3"),
 	}
 )
 
