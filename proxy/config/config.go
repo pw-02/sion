@@ -65,7 +65,7 @@ const Threshold = 0.9 // Don't set beyond 0.9
 const ChunkThreshold = 125000 // Fraction, ChunkThreshold = InstanceCapacity / 100K * Threshold
 
 // ServerPublicIp Public IP of proxy, leave empty if running Lambda functions in VPC.
-const ServerPublicIp = "54.153.102.8" // Leave it empty if Lambda VPC is enabled.
+const ServerPublicIp = "ec2-54-153-102-8.us-west-1.compute.amazonaws.com" // Leave it empty if Lambda VPC is enabled.
 
 // RecoverRate Empirical S3 download rate for specified InstanceCapacity.
 // 40MB for 512, 1024, 1536MB instance, 70MB for 3008MB instance.
