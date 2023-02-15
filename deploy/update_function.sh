@@ -36,7 +36,9 @@ if [ "$CODE" == "-code" ] ; then
     if [ ! $NO_BUILD ] ; then
         cd $BASE/../lambda
         echo "Compiling lambda code..."
-        GOOS=linux go build
+      
+        GOOS=linux GOARCH=amd64 go build
+
         echo "Compressing file..."
         zip $KEY $KEY
         echo "Putting code zip to s3"
