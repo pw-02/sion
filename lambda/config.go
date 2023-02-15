@@ -12,9 +12,9 @@ const (
 
 var (
 	// Bucket to store experiment data. No date will be stored if InputEvent.Prefix is not set.
-	S3_COLLECTOR_BUCKET string = "sionreview.datapool"
+	S3_COLLECTOR_BUCKET string = "sion-datapool"
 	// Bucket to store persistent data. Keep "%s" at the end of the bucket name.
-	S3_BACKUP_BUCKET string = "sion.backup%s"
+	S3_BACKUP_BUCKET string = "sion-backup%s"
 
 	DRY_RUN = false
 )

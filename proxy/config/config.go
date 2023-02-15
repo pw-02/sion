@@ -25,10 +25,10 @@ const LambdaLogLevel = logger.LOG_LEVEL_ALL // Set to logger.LOG_LEVEL_ALL to ke
 const LambdaPrefix = "Your Lambda Function Prefix"
 
 // AWSRegion Region of AWS services.
-const AWSRegion = "us-east-1"
+const AWSRegion = "us-west-1"
 
 // LambdaMaxDeployments Number of Lambda function deployments available.
-const LambdaMaxDeployments = 400
+const LambdaMaxDeployments = 5
 
 // Mode of cluster.
 const StaticCluster = "static"

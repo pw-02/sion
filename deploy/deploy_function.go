@@ -16,9 +16,9 @@ import (
 const (
 
 	// ARN of your AWS role, which has the proper policy (AWSLambdaFullAccess is recommended, see README.md for details).
-	ROLE = "arn:aws:iam::[aws account id]:role/[role name]"
+	ROLE = "arn:aws:iam::590178426343:role/SIONLambdaRole"
 	// AWS region, change it if necessary.
-	REGION = "us-east-1"
+	REGION = "us-west-1"
 )
 
 var (
@@ -36,11 +36,11 @@ var (
 	bucket  = flag.String("S3", "sion.default", "S3 bucket for lambda code")
 
 	subnet = []*string{
-		aws.String("sb-your-subnet-1"),
-		aws.String("sb-your-subnet-2"),
+		aws.String("subnet-0f36cee121043f5e8"),
+		aws.String("subnet-0b934b101f7859b36"),
 	}
 	securityGroup = []*string{
-		aws.String("sg-your-security-group"),
+		aws.String("sg-016473a0859e12662"),
 	}
 )
 
