@@ -22,7 +22,7 @@ const ProxyFeatures = FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION | FLAG_ENABLE_LOCAL_CA
 const LambdaLogLevel = logger.LOG_LEVEL_ALL // Set to logger.LOG_LEVEL_ALL to keep Lambda log level aligned with proxy log level.
 
 // LambdaPrefix Prefix of Lambda function, overridable with command line parameter -lambda-prefix.
-const LambdaPrefix = "Your Lambda Function Prefix"
+const LambdaPrefix = "CacheNode"
 
 // AWSRegion Region of AWS services.
 const AWSRegion = "us-west-1"
