@@ -1,0 +1,845 @@
+2023/02/15 10:57:11 [0;32mStart listening to clients(port 6378)[0m
+2023/02/15 10:57:11 Proxy: [0;32mInitiating lambda servers[0m
+2023/02/15 10:57:11 Proxy: [0;32mListening lambdas on 6379[0m
+2023/02/15 10:57:11 Bucket 0:[0;32m5 nodes added: 0 ~ 4[0m
+2023/02/15 10:57:11 Bucket 0:[0;32m[Ready][0m
+2023/02/15 10:57:11 Proxy: [0;32m[Proxy is ready][0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -465690h57m46.424s[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -465690h57m46.42407s[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -465690h57m46.424056s[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1088ecf2-35e1-4426-8457-f9b968f1ddf1[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 27864616-7a96-4b06-99b8-d0d7bc5e2c1c[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4b26899a-4700-4278-a996-5dd930742c86[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: edf8c744-ef18-4337-a32f-91ea9b9cf4a3[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8057cafb-c374-4d89-9129-b745b7a00199[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9886de57-2cff-4f83-9154-0254594ae0a0[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 77a5c9b6-5071-44b3-8442-9f6d49e695e6[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: bf7692bf-4dd3-437e-9269-f2474c13db1e[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 64500085-7994-49e6-9a5e-edb3f395be8e[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: fe5e55dc-637c-4087-9065-cc73fb5d2a74[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 45e6fefb-644a-4c88-986c-78070fe04d85[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: fda2c0b8-89be-4c2f-b881-c53e34dfa358[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: da54d353-f849-48bd-9642-bae65bb03fb8[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 077e0e99-3fc7-4920-8fa0-a6aa644ee4a7[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 234322d0-5802-4658-aba6-09946b0cbdfd[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a989bd0a-4797-4a15-b484-b772bf9c9e78[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 793d5f35-eb27-44f6-9805-04fa94deee38[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: aa5354b9-aa12-4e37-a9bc-3fc24e8e4559[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 26eb2cac-4dfd-42ad-b64b-5277f37417a5[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6de5726f-d01d-4e54-9709-051cf69a58e4[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ff7d1af8-f33b-493a-9070-cbf7a5e96626[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 54146b15-8981-44dd-8d33-6cdd6ad4c7e9[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e994fe4b-2e73-482e-b711-be5811201a71[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7683a94a-9249-4c76-ad85-ef93ccb0da1a[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d58096c5-a34f-4808-9454-4b5f73c8d867[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0cf9e8a9-de78-44df-b1ea-c30ecb2fcc73[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ab8de588-0cb2-4466-98ee-e24c9fa027fd[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 91b170ee-72f3-4e28-98a1-84824891ee1f[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1ef97534-eec4-468b-8122-079a7cbd6e17[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: da6129bc-0d41-49d7-88eb-1fe5c6b2345b[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1161f722-9b40-4c8a-a605-eb6950762adc[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 08540b24-b941-4540-b1f3-30030274511c[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 213ad95e-95da-478c-9f31-9dc51592e33a[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 37e8c36e-9d29-44f4-816b-cae0f7f90adf[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 420e0662-1e15-4885-bcfa-cc0345fd2208[0m
+2023/02/15 10:57:46 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 44e102b1-b379-4000-acfb-aa27d03eed27[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4b6e2486-aa1f-49cc-99f2-1123b5540be2[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6fa87a3e-27de-4e62-a8aa-98e1bc2a9b07[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 97de02c5-b971-4e87-a6b9-6420958a78b9[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a0ebab15-2be0-49bf-b7d3-497efbd582bb[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b534c6d9-a078-4263-9864-c57ed082f7b3[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e4edff2a-ce14-423b-83f7-e0dfaa56bc60[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 10b5d62b-8a26-4f1f-aff8-203d707b09f6[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a53b9c86-c973-4f1c-baf3-0b7aa9d06eb6[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c0251343-55e6-4a76-ae0c-d696cadb87a8[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7657ea31-a852-4bbe-9e8f-ddf58b89288a[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5d48c298-8f72-4fe8-8ea5-900a9558803d[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 841ede6b-8e07-4604-b493-3d3228a5f308[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 361b3f97-6e7d-49e4-887b-85a7e9024ac8[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 42a4c76e-34cc-4586-a04e-92153a17aa07[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9935543b-dce0-47c4-bbae-19658469bd6f[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2e7384ea-ff8f-43d0-b096-ffabea380cb4[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7de7b4b3-30f5-46f5-8052-f8db39a5eced[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4ea4478f-2681-466e-aae7-022071ee08b6[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 651f7bff-e62b-4bdb-a199-d61bd54550d7[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9a0db9fc-8c52-4f1c-bd8e-df2b3594a7ea[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1dc8a943-521c-41c9-9fbe-82fe6a46d959[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 102f46d8-722f-45fb-9779-6a0c8bf38293[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 70a40697-319d-4cbf-b52b-ae55b7d41ed1[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 70417c9e-e18e-401f-b6fc-ae843e2b69fc[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 120ac465-78d3-4c81-a09f-03da986a41d8[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 24e7bcac-1bc4-48b4-922f-a4283d089370[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f75044d5-c0ba-43c2-8b97-823d4bb3da2b[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c3e7dbff-df97-47f0-b5f6-ceeb849e3bc1[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3e263091-b9ce-40be-b570-b460d37981a5[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b18dc745-93e4-495b-823c-3a13d34ecad2[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c61c5e7f-6714-48ef-8064-0b7ad8a789cc[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: bdbd6732-8fd7-409f-ad0b-39efdd7bc418[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 78f7268b-d839-45da-8fa2-5b04bdeadfd2[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 801e3570-cb02-4de5-94a9-e1db2cb964b4[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1fec262e-7480-4d8c-b385-c71252a6cf8c[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e0e4c606-e7be-47d2-b0a0-3b58831fdbfd[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -465690h57m46.424056s[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -465690h57m46.42407s[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -465690h57m46.424s[0m
+2023/02/15 10:57:47 Proxy: [0;33mKEY 2@foo not found[0m
+2023/02/15 10:57:47 Proxy: [0;33mKEY 0@foo not found[0m
+2023/02/15 10:57:47 Proxy: [0;33mKEY 1@foo not found[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 915e264c-7712-46a7-a77d-ce2d25d56d18[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ce2edfc9-364e-4f43-9054-57963004b6d1[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 17047276-d00b-474d-acec-6393a868e63a[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: eedfc47b-2d59-4e93-b8de-771fdc70c972[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7c65e84f-808e-436a-830b-e9332e6c83fa[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7fa851de-3919-4735-9e16-8148417fc14e[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 802b1595-1a09-4417-9f59-ef32c6c9ec48[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 47a90f6f-5f8e-47f3-bf44-ad4951ff7e78[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 468fb7bd-2f15-408d-a9a2-2fd75b0286d3[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: fa0e1afd-6852-4e8f-9d6a-93e480587fde[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 713cdeb7-e8ce-4990-9e95-e93c2abcfbbc[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f3c7511b-10db-4557-baf2-bc73eaa7f04e[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9c4e8a93-3489-4a16-8495-66c77f5da9e1[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 61fafcaf-e532-419f-a2f8-ecd260bba2de[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1a6f5b39-18c4-4094-b91c-a7e0bfd4e2db[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6f3a8508-27d6-479f-9f4d-b60f8db961a7[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e3722559-0610-42cc-8a02-67e22c658ddb[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: cb190950-7900-4662-94f0-4036a5c89047[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4e2460b1-a31d-42a2-9b0d-9a1927c468e4[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 65dbb402-d239-4dc9-869f-a179562b30c5[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8b123780-1cd4-42c3-b182-3bf97830be6e[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1a8ba185-a3bc-4889-8508-b6cc9958ba60[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 703d295d-dac6-4b42-9a6c-122ebd9f241e[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 29b95065-bdd8-470a-8b20-79ffed2ce0be[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c816c7b1-7aac-404b-8cb4-e7d326c35fa9[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2a0653e9-81ce-4fad-9b4c-a084d33ff3e2[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 409d8128-7bd4-4543-9ccf-0854b1e6f1e6[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: aa98aec3-5757-41c7-8844-73af5aab7670[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 049ce14f-71aa-49bb-ba26-4a116663d5a2[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: adbdfcb7-8848-4908-93e9-0106aaefbe7d[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 38edb759-3e03-4b13-a447-319391b86db4[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e35730a6-3c78-4dc6-8a42-6290c1f1a2bd[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9ae5946b-9027-49c4-a1dd-cd3d9d4dfab9[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -465690h57m46.424056s[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -465690h57m46.424s[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -465690h57m46.42407s[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 82b599c7-cbe5-4606-a5de-1690a98ac2bd[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a5e886d0-7ef8-4736-8880-b635c11385a0[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: bc36aa4e-b189-4215-abd7-b340efa90cab[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 20943bd0-9333-426c-881b-bf16995d21b5[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6154905e-a453-4d68-92a4-7fea771ed122[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f32a670d-1ebd-443a-88a7-d2c79ced8569[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5a675f1b-e6ca-4afe-906f-a077c0991bd4[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4edaa50a-3fb6-48ab-8c18-dfdc6751c337[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d5729cac-3786-4485-b614-4e7e902c517d[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: fb11440f-9901-45d5-ba6e-a21d7466823c[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7c20448b-0a57-4ff9-bcf8-16e7e2c0287d[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5b0221f6-8ba3-447e-b7b1-1d7c1acc81e9[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 56317898-8179-450a-ad68-2b07416e916e[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 27d59794-3a53-42c5-ba46-002b96c6c726[0m
+2023/02/15 10:57:47 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5a494b2f-272b-4054-8c5f-37142f7f22f0[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 96700c2f-9712-43da-8073-b414a5af1c6c[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5b31d9d7-25e6-4f97-8dbe-8dbb3a201db6[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: aef2982b-d6e6-4f69-a709-9d47f6ecc321[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ff213b92-7f2d-455a-bf19-a87f7758a49a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7a29773e-e1e3-4163-8bed-5fb8df95a496[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 90f24e9b-b638-41df-b8d0-ec7964abc50f[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 69a10d73-30c8-405d-9053-90c890bbb006[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7b6b515f-ef32-468d-bdfb-06840cf0dcb8[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: eea6a207-9434-4821-b157-d15d47134510[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: eeab7118-1cc6-4297-9397-b6c665629048[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f757588d-9ccf-4ad3-9309-99fe42331cef[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ff12614b-b42d-49e1-a2d3-5ce37fb02a0f[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 784ab494-4b1e-4a53-8302-13d2d8c1911a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 07cd3ca6-6eac-4b68-8f23-369dcf1b037e[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7593f6ce-8767-4d0d-b6f0-9ffd6135fbb6[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5350aef4-e7f1-49e9-93d5-be15a27f8dcd[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6ad7536d-5a01-47e2-bfdb-a6722c2193a1[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f97ef99a-594d-40f6-987a-1bc9ae71cd38[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1a0fd3d1-dadd-477c-bf5e-3f4edff4fdb4[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 90e0861a-ae3b-4a2d-86d0-c4d6bbe19873[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 52db457b-ae03-41f2-a886-20acc285f5a0[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d16663ce-a8b6-4f25-8d0d-1baac2372319[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c01f342f-62ee-4ab0-ace4-8565a48fdd24[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 96863fbb-a943-4c93-86d4-b827360a0de9[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 815efcd6-6afc-48ba-8f54-e3e33b0b0fef[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d7db6e98-12dd-4fb5-9ce5-cc5ceacec685[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5efdfc5e-8b0b-4c75-8ce4-1f1998ca184c[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b4a372ef-87db-471b-9e6f-af9d4a330542[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ac8a6cf2-4a59-4a66-8b1b-190a1ca98be8[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 336be1f0-0b80-4dcb-96f6-68e6191a4e12[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b6e4964e-d2c0-455d-9b64-834119d6c04e[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c9be6da8-6a01-4418-ac0c-070cced56efa[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2c11abe7-1669-423c-bdb2-36816a45ce65[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 80f11cfa-6d3e-45c1-813d-4af6b0463589[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 34151bb4-1699-4ff4-9ed6-5c96a9b83cc1[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c9b942aa-58c3-4e6c-bb50-03c6558e0beb[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 22acb2bb-7837-4fac-b1c9-ce33c32b4237[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 844124e4-07f2-40ef-8945-2c88ebbd0d48[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 84cb55cb-9843-4672-980f-c9f0af978b18[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 17e6d65b-f7c7-43bb-863b-ac6ff8e69c0c[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2656a4d6-9ec2-44d6-af18-c5a1871ea9ee[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: cc6326bb-c4ba-42c4-8c6a-9bb0e5274a8e[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 97f09601-4263-4a63-a549-1fb8b1bc60b9[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3ac90266-67fb-4ffc-b2bb-c595aae4970a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8d465b40-28d9-4fe2-a284-940b52f97671[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 22cf2a6a-f319-4612-a7b7-39dd15225c69[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6bff9db9-0da1-4a87-a960-e0fc003268ef[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 83c3f1d2-7978-4051-8475-b9595f7de9b9[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f9c0c86c-4cc0-42b6-acfb-ab6f161b5422[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7af941f4-fd9b-4fed-a07b-29a0224b025a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 131ab825-73f2-4cf8-9ad4-0811e5ba1d9a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 16f9e183-e870-4c5a-8805-68663921eac7[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2656d486-99f3-4a0b-ac75-6920a8b2df3a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e10e8af4-eafc-4264-a0c0-dcd598d23863[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;33mFailed to set a6b15259-6b2c-41ec-b2d2-673e4788fc45(1): funciton validation timeout, 2 attempts remaining.[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;33mFailed to set a6b15259-6b2c-41ec-b2d2-673e4788fc45(2): funciton validation timeout, 2 attempts remaining.[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;33mFailed to set a6b15259-6b2c-41ec-b2d2-673e4788fc45(0): funciton validation timeout, 2 attempts remaining.[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;32mLambda abandoned[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;32mLambda abandoned[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -115µs[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;32mLambda abandoned[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -33µs[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -130µs[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 63e2a468-c751-4749-9775-ac7198e9e760[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 79aaeb9a-d108-4240-9bbe-171c27949019[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 04a4f07b-29f4-4cf4-9303-226d1df4aa29[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ebe7ed10-ab5f-4dda-afbb-2fc274e8513f[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 15dfcbb4-6f7b-4e68-8cce-4c86663f8d1a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e953fde5-a731-4c99-bca7-bd281d1d4a0c[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 498a197b-45e0-4ff6-a8dd-280ded7290f5[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2c5043f0-a9f5-4b22-ac9d-cc69753647ba[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a1a73e60-1d13-4eb9-9686-dc1b8f71afb7[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e41dccff-9f10-4afe-8eb9-a21d22651ba1[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 613118dc-6f6a-48a6-b285-378b03911a38[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c6f20f3b-ee3c-467f-9ad8-de50242c73bd[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: eeb7b257-5a0d-4afb-a436-21f8f3337e80[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: fb00f422-ebdd-4258-bc6e-e0fafe1f895a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6ab0c072-3425-4031-9132-434661aeae8e[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -115µs[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -33µs[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -130µs[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: daceea9c-eee9-4f30-8213-bfa621cb1689[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 55d1a6f5-b0ba-43c9-9860-52b2822b985b[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9c5c875e-30fb-4973-8fc7-ecf8731f922e[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9cee71f4-9d38-41c7-9f69-6ea5e7e53944[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c1320f9a-89e2-4b43-986b-fd6c9db30f23[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0931f6ce-96bd-4ecb-833f-6cdab5f83fe2[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 24063f29-04f4-41bf-843a-b1432648ac6b[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 61346249-6291-48b1-8446-6741cc8c7753[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 41ee4d2a-f0b5-44c5-92b4-475b668e5c58[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 52924cc4-5168-42a0-adb6-bc02b8a8cb9b[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8262f552-260f-44b0-8b7f-04c8d289c22a[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: abba6a78-9f84-4cfd-a268-55c957eb48b6[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 91d71c6e-05f5-4024-a3de-0dae6cc576f7[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 166383b8-b427-41a1-a31d-5612adb0f587[0m
+2023/02/15 10:57:48 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6fe004d7-6883-48cf-8796-76dfe7c9d6b4[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7eec22fe-7836-445b-8163-4ccc23790dbe[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 55d14514-fa38-48d5-a3e4-27387bd1531f[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 858e1742-04cd-472c-b7c5-ed2b0b9aa30c[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7f920f35-cf56-4132-b7b4-badf4e1ac198[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8a7d45bf-4f36-436a-ba28-555b6288464d[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e1c362b8-1c48-46dc-8532-89a77b24dd93[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3d992e3d-23ce-4b46-8bce-6ba0050c7984[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6bf95338-af0c-46e6-8756-23eadfc45f28[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 422bec5c-b7c2-42c5-b8fd-710da2b072b6[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f1198e51-76b6-4fc6-a4dd-36b00bbc104e[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e95f74e8-d088-450f-9492-67dd0046a56a[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 08cc6a5f-c02e-40c5-93a9-c5061b1bd0cf[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5f0e1f4d-e03d-4559-a361-094a1a4731a8[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ea8fc568-0c89-4769-914a-965315f085ee[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8bdbfebe-6312-48f9-99f4-185da7185989[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d74b2f51-8220-4d43-b83d-61136c939e19[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0a5b61de-b6d0-497e-9c4c-0fa241f75f37[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1b9e888a-8b21-499b-b650-95f738c799be[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0099e9f2-d738-4209-91b0-909492e109df[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d8aac783-eae3-48a4-b2f8-92140fa9f201[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -130µs[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -115µs[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -33µs[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: edbff015-1577-4e01-81cf-cfd7bb002cde[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3f5e9243-2c82-4d21-9984-e153959c2518[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f8cf1386-74ca-4177-b864-7cc482736d6f[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 943a135b-8920-4702-8210-f1ba969fd788[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 76426fe3-a0b4-4813-a320-1dae83e2df1c[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 828ff980-b121-4987-b2bc-56a639c4942e[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 50a5ee3b-aa31-4f04-bb2c-fd6c4e8e82d3[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1ab7ddc1-2b33-4f24-be1b-f70e0b3f8582[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a49f6bca-e34c-497d-8dca-7654c96db19b[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0481f305-d553-4d09-8411-fb050ff86ffd[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 93af2ddf-419a-443d-ab2e-7165104ac1b8[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d88442ae-5e6b-4146-8cd4-3cdfa0ff1949[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c4b5a7b7-6419-43fe-99bf-b11bbd12a7b0[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0af8e8dc-956f-428c-93a1-ca443c8a6f63[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5330e42b-0b74-4ca8-bcb4-b93d48d375c5[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1f532b66-0c2e-407f-a6f2-12038eff32ae[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b08d2934-4838-4d4c-ba7c-49567095710a[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8b138b68-cf74-4e92-a322-ed024774b484[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f7058632-f44b-4f57-a236-3e96e636e162[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c8af83e8-55f7-408f-ae32-5ae616748453[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7445711d-f2c6-4094-a98d-f45719b97b03[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 00e8a973-3bbc-4296-9dec-9b9f53fded05[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: caa7cca5-a1eb-42b6-94ad-fa3884ae5818[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6ea0eb94-6e3f-4039-a83c-b1e09ed07fcb[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: bccb32cf-815a-4dee-97df-5234e0c73ce2[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 00fc5b64-fb4f-4b0b-bfca-484322f0ac08[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: cc55a1d7-1d7c-4962-8a2b-6159f3c32cd9[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 46334f4d-c9be-4d07-bdab-ea31c22c595c[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2ea53a6d-c943-4815-bf5f-11a5825486c5[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ae928a74-828d-428c-a299-9ea80899e3c3[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: cc32015b-0b5b-41ed-ba9e-f499c050d23e[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6fd1bbf4-5545-425f-83b9-bad6dcc1a719[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f94b9ae9-a8b2-461e-999d-f6a6129ed541[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6c8d1eaf-f55b-44a4-b0c5-ed0a6762d976[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3b5ccfbe-d38d-4274-9598-5430908a6531[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 67f7c7e4-b7b8-46d2-9566-618f40d7f2d3[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 19a86b7a-cb1b-4989-87da-8c923f646623[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4ae0c162-5b18-43f8-bd8a-0cd3ff6ca6ac[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8a95f3ef-30ea-4810-aad0-018f4c2339d1[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 25573b7e-79ae-408b-9dcd-5cd7d1a3d5f6[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 24797044-3d8a-4e4a-90ea-cf742ef1d048[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0d1920c5-d2c3-4ae0-9f24-346ef0e18c86[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 014611bd-a11b-4365-b472-b473bcebc4bf[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 21eb6345-8914-4788-9e8e-854c2a337a65[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 048ca566-e210-4ee0-a581-18a73553d422[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b974f5e5-f14d-4e3d-939a-1bbd168d0350[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8275a093-3c60-4c81-a9c9-fe64806487ea[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4523f23b-158e-41a5-b070-c454c32dc74f[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 453ba7fa-e8f9-418d-affa-b42b59e30db9[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 45258bf9-bc37-40a8-98ba-3677824e0e45[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d2fe2a31-94fc-4b17-907d-40c7e8abaa29[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ca97b8c4-0a03-4a31-9975-447ca47a8fff[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 668bd24f-1103-4714-ae25-1a20b815a4f3[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a37510a5-2cbc-46a2-9d85-511f7ba0f090[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d9c7afd9-c053-4d69-a069-079ea0b331e7[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7cb2bad3-61c3-43ea-a792-caaf4bcf575b[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 48bd16de-86a2-4f6f-b558-cddb919b69d3[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: cb481bcb-22e3-410c-adad-e57b511254c1[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 79426c36-aa6d-4b36-b384-97bbce4288e5[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c7889ccd-391a-4f78-ae14-5353a41150f8[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 16ff96f5-f730-497a-8934-0b30f9a6ac50[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: fb4a163c-d944-45ec-a670-dc2744f1f062[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f47cbdb6-6523-447b-91de-b530879336ba[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 67635ad3-3906-4774-a4f4-cea3af7ddfa7[0m
+2023/02/15 10:57:49 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e2b16017-eab4-4adc-9388-25b848784c62[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 64b7083f-4538-4600-a374-dff9a2d07e08[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 60b1c239-f21e-4ea5-8bb3-5491505c1c7a[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b0ac3f15-6a2c-468c-a8d3-8857179b0fe6[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;33mFailed to set a6b15259-6b2c-41ec-b2d2-673e4788fc45(1): funciton validation timeout, 1 attempts remaining.[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;32mLambda abandoned[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;32mLambda abandoned[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;33mFailed to set a6b15259-6b2c-41ec-b2d2-673e4788fc45(0): funciton validation timeout, 1 attempts remaining.[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -52µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;33mFailed to set a6b15259-6b2c-41ec-b2d2-673e4788fc45(2): funciton validation timeout, 1 attempts remaining.[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;32mLambda abandoned[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -93µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -270µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1595d673-56b5-475d-af22-c501404b5eb6[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8e26fd52-03f0-4617-91c2-00eb8a29d521[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 4ce4f32c-53f3-4573-b054-494bbc92388f[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 25c5b00d-b51c-4a60-9ab0-0d4058abaa16[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: aa5bd38d-a2b2-4d5e-b89b-373ee14a5ae0[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c5d51713-33d9-4bd0-9470-82f47854c2ec[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 96da1972-77cb-4f41-b20e-d945d97bb092[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3c3b2d17-6ce7-49b0-bce3-557830da002a[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ae7fc925-3976-42de-806a-3d9d31a49daa[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1f1e00c5-a689-44c4-aa94-836ccae0d44e[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 521d762b-712d-428e-93ff-6ffb565ae1cf[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 50bd16d9-aa12-43ad-8b5c-d1468d906f54[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a4657801-11b5-4f12-9679-144cfd449ff2[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 72eb0b1e-4508-4526-b33e-a3c55b49bb43[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 55d7b794-4cb6-4c0b-8b6e-0203142b6010[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -93µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -52µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -270µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 72b7faec-c8af-4a03-9e05-aefd7c8df470[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0dc63860-babb-4ba7-9822-482b617b12f9[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a9e3e48f-7ead-4d6f-9e7b-708c9d5e2847[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1d91e2f3-1338-48ea-90cc-61de258d6152[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: d1c49e23-f6dd-444f-8c9f-ab7dd0408dcc[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 98723af5-a693-4f7e-84fe-5c2ced8d3793[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 606be620-cbac-4c22-9655-a5a22aef437c[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 8371ad01-e923-4282-9ce7-dcf50e6c0e94[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 63a058bc-8fab-452e-990b-53fb6dd3d6f4[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e4c03cd2-7be8-4218-b135-eeb8b47b2125[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6aee8896-a0d4-48bb-8b3f-bb8c016d6887[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: c482639e-61c3-43eb-835f-3b612ac3ac76[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ee8a0d1c-292e-48cc-a3a6-36f43fc7c765[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 982c746e-045e-4aa9-a9c0-cf4348f23a46[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3fa4b439-69f1-48eb-b430-250bf7ee26ad[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a605c0f2-9545-4bbb-a82d-130a7fe61ad7[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 1f6b6025-37d2-49d1-9eb8-d5ca84b40412[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 023270a0-5bce-4689-b567-c9da5cc30b84[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: dd25c2b5-b7a3-44b3-82f4-385b93182290[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a44faf6a-bbb1-492d-a896-0acc90165c01[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 2a636a2f-fd76-4274-a7fd-e9831a5148f8[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 95c6b01e-be3d-4dea-b0c0-c185e8051cb6[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: ab541638-65e7-4c9d-b3f8-c7a8d72dbd24[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a808477a-f57b-4149-b19d-1401a35cba24[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0a80419a-a0a2-46ee-b321-23765632bb0c[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 390abf8d-8013-4d5e-b190-2d2a136e6ef6[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 188476be-f9c4-44d0-a3e3-8fe1180c011c[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 04262a9e-edcf-45dd-9c64-430df49eb694[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 43fb8f1c-9c22-41e8-b7c4-bc55480b5737[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0175ee30-0ccd-4608-9237-76a0fb376f3a[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e0d302ca-8ca7-4b82-a93d-bd3cf2c198d4[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f8c248f9-8d6b-41fc-85c3-78335cb7b60c[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6a98b0d9-903a-49df-b761-0b221fb723f1[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;32mValidating..., due in -52µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;33mTimeout on validating, re-ping...[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;32mValidating..., due in -93µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;32mValidating..., due in -270µs[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f91ac936-004c-4f8a-853b-5b79ddecead4[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: f01c523b-f58d-4b33-851d-0ec5b29fd153[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7cc50674-f08d-4294-86ed-574c4f46f8ac[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 75c6e0c5-efe9-4761-b3e1-e49f4792c620[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 58ad0dcb-0f3e-431d-9a58-936b79745bbd[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 40b520d1-bbe1-475a-a291-21d0f83defc4[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3a52f51e-e662-4b4d-9504-19e8b5b9fe3b[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: da9da486-c34f-40a9-95a9-db03bd2f83b2[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 715a1904-d343-45b9-96b4-90dc8e0112e7[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 6ac86fdc-3dce-4847-b772-5fa75f558920[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 61aaf3d6-ccb4-4d22-9944-f33cdf99fcb0[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: b905dfc7-ee09-4905-9e79-4cee9d59ba87[0m
+2023/02/15 10:57:50 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 09dd8f24-8ebd-436d-a47e-126af9850b0f[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 87a90db5-8d5a-4d92-ab04-ff9b72e2e0a8[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5ee66e9f-b2bb-4858-aea4-e639f6a7d7e6[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 9fc14aec-7a06-40aa-a0c3-c05fa04ea893[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3ea18768-bad3-450c-8d7e-4448b7bca4cd[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 92a79547-95d1-4385-b2a0-168b2e96feb5[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 7ede6bf7-fb06-4373-b284-7f5ca9a6a54d[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: a5d0eba2-5586-4405-bb18-ae59e05e1887[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 3f7c7d14-a83f-43a0-a00f-3a245e6a5e24[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 184ff0bd-2919-4c5b-9964-0856290732e4[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: e7794a01-de8d-4927-98f6-54434d24b82b[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 5cb0db0c-2bf0-4ab2-ab70-18f7ffb9dfc8[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;31m[unstarted]Error on activating lambda store: ValidationException: [0m
+[0;31m	status code: 400, request id: 0894ae00-1b85-4120-a812-9c45af4980f5[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;31mmax attempts reached, give up: funciton validation timeout[0m
+2023/02/15 10:57:51 PersistCache [0;33m1@foo@v1: Closed with error: funciton validation timeout, affected: 1[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;32mLambda abandoned[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;31mmax attempts reached, give up: funciton validation timeout[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix1-1 [0;31m[activating]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:51 PersistCache [0;33m0@foo@v1: Closed with error: funciton validation timeout, affected: 1[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;32mLambda abandoned[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix0-0 [0;31m[activating]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;33m[unstarted]Validation failed: funciton validation timeout[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;33mMaxed validation failure reached, abandon active instance...[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;31mmax attempts reached, give up: funciton validation timeout[0m
+2023/02/15 10:57:51 PersistCache [0;33m2@foo@v1: Closed with error: funciton validation timeout, affected: 1[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;32mLambda abandoned[0m
+2023/02/15 10:57:51 Your Lambda Function Prefix2-2 [0;31m[activating]Error on activating lambda store: RequestCanceled: request context canceled[0m
+[0;31mcaused by: context canceled[0m
+2023/02/15 10:58:06 [0;32mReceive signal, killing server...[0m
+2023/02/15 10:58:06 [0;32mClosing server...[0m
+2023/02/15 10:58:06 [0;32mServer closed.[0m
+2023/02/15 10:58:06 PersistCache [0;32mTotal keys: 0[0m
