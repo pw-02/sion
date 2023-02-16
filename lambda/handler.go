@@ -587,10 +587,10 @@ func main() {
 	store.Server.HandleFunc(protocol.CMD_MIGRATE, store.Server.Handler(handlers.MigrateHandler))
 	store.Server.HandleFunc(protocol.CMD_MHELLO, store.Server.Handler(handlers.MHelloHandler))
 
-	if DRY_RUN {
-		dryrun()
-		return
-	}
+	//if DRY_RUN {
+	//	dryrun()
+	//	return
+	//	}
 
 	// log.Debug("Routings on launching: %d", runtime.NumGoroutine())
 	lambda.Start(HandleRequest)

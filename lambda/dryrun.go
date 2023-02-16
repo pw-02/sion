@@ -1,5 +1,7 @@
+
 package main
 
+/*
 import (
 	"context"
 	"encoding/binary"
@@ -708,3 +710,4 @@ func setup(input *protocol.InputEvent, opt *option) {
 	}
 	session.Timeout.DoneBusyWithReset(lambdaLife.TICK_ERROR, "dryrun")
 }
+*/

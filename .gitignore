@@ -1,3 +1,5 @@
 bin/example
 bin/proxy
 bin/lambda
+log
+_proxy.clog
