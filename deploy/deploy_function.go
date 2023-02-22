@@ -18,7 +18,7 @@ const (
 	// ARN of your AWS role, which has the proper policy (AWSLambdaFullAccess is recommended, see README.md for details).
 	ROLE = "arn:aws:iam::590178426343:role/SIONLambdaRole"
 	// AWS region, change it if necessary.
-	REGION = "us-west-1"
+	REGION = "us-west-2"
 )
 
 var (
@@ -38,12 +38,12 @@ var (
 	subnet = []*string{
 		//aws.String("subnet-0f290ea8bd4f975f7"),
 		//aws.String("subnet-0c4be172173a07d63"),
-		aws.String("subnet-0fa23b775d4589e72"), //private subent - should not be the public one :)
+		aws.String("subnet-0e53b53c3ca272909"), //private subent - should not be the public one :)
 		//aws.String("subnet-0c6038f69369a69cc"),
 	}
 	securityGroup = []*string{
 		//aws.String("sg-0448774ca20e15ac3"),
-		aws.String("sg-0c600ad0d47b3e919"),
+		aws.String("sg-06a89ee3176a5f153"),
 
 	}
 )

@@ -8,7 +8,7 @@ ARG_PROMPT="timeout"
 EXPECTING_ARGS=1
 # try -code
 
-S3="sion.default"
+S3="sion-default"
 EMPH="\033[1;33m"
 RESET="\033[0m"
 

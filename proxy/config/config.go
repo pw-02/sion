@@ -25,7 +25,7 @@ const LambdaLogLevel = logger.LOG_LEVEL_ALL // Set to logger.LOG_LEVEL_ALL to ke
 const LambdaPrefix = "CacheNode"
 
 // AWSRegion Region of AWS services.
-const AWSRegion = "us-west-1"
+const AWSRegion = "us-west-2"
 
 // LambdaMaxDeployments Number of Lambda function deployments available.
 const LambdaMaxDeployments = 400
