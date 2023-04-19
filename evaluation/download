@@ -6,8 +6,8 @@ DOWNLOAD=$PWD/downloaded/proxy/
 REMOTE="ubuntu@remote"
 
 FOLDER=$1
-date "+%Y%m%d%H%M" -d "$FOLDER" > /dev/null  2>&1 # Linux
-#date -jf "%Y%m%d%H%M" "$FOLDER" > /dev/null  2>&1  # Mac
+# date "+%Y%m%d%H%M" -d "$FOLDER" > /dev/null  2>&1 # Linux
+date -jf "%Y%m%d%H%M" "$FOLDER" > /dev/null  2>&1  # Mac
 if [ $? -ne 0 ]; then
 		FOLDER=""
 fi
