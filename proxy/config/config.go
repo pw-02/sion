@@ -18,9 +18,9 @@ const FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION = 0x0002
 const FLAG_ENABLE_LOCAL_CACHE = 0x0004
 
 //const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
-const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS
+//const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS
 
-//const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS
+const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS
 
 const ProxyFeatures = FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION | FLAG_ENABLE_LOCAL_CACHE
 const LambdaLogLevel = logger.LOG_LEVEL_ALL // Set to logger.LOG_LEVEL_ALL to keep Lambda log level aligned with proxy log level.
