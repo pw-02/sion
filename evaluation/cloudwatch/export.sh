@@ -1,9 +1,9 @@
 #!/bin/bash
-LAMBDA="/aws/lambda/reclaim"
-FILE="aws/lambda/reclaim"
-
-start='2019-09-06 00:00:00'
-end='2019-09-09 00:00:00'
+LAMBDA="/aws/lambda/CacheNode"
+FILE="aws/lambda/CacheNode"
+#2023-06-08
+start='2023-06-08 00:00:00'
+end='2023-06-09 00:00:00'
 
 # Convert date into seconds (Format is %s)
 startTime=$(date  -j -f "%Y-%m-%d %H:%M:%S" "$start" +%s)000
@@ -30,6 +30,6 @@ do
     echo "Done"
   fi
 
-  aws logs create-export-task --log-group-name $LAMBDA$i --from ${startTime} --to ${endTime} --destination "sionreview.datapool" --destination-prefix $FILE$PREFIX$i
+  aws logs create-export-task --log-group-name $LAMBDA$i --from ${startTime} --to ${endTime} --destination "sion-datapool" --destination-prefix $FILE$PREFIX$i
   sleep 2s
 done
