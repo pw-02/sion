@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LAMBDAPREFIX="Function Prefix"
+LAMBDAPREFIX="CacheNode"
 
 PREFIX=$1
 if [ "$PREFIX" == "" ] ; then
