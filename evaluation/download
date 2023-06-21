@@ -1,13 +1,16 @@
 #!/bin/bash
 
 PWD=`dirname $0`
-DATA="~/go/src/github.com/sionreview/sion/evaluation/data"
+DATA="~/project/src/github.com/sionreview/sion/evaluation/data"
 DOWNLOAD=$PWD/downloaded/proxy/
-REMOTE="ubuntu@remote"
+REMOTE="ubuntu@ec2-35-163-39-6.us-west-2.compute.amazonaws.com"
+#/home/ubuntu/project/src/github.com/sionreview/sion/evaluation
+
 
 FOLDER=$1
-date "+%Y%m%d%H%M" -d "$FOLDER" > /dev/null  2>&1 # Linux
-#date -jf "%Y%m%d%H%M" "$FOLDER" > /dev/null  2>&1  # Mac
+#date "+%Y%m%d%H%M" -d "$FOLDER" > /dev/null  2>&1 # Linux
+date -jf "%Y%m%d%H%M" "$FOLDER" > /dev/null  2>&1  # Mac
+
 if [ $? -ne 0 ]; then
 		FOLDER=""
 fi
@@ -21,5 +24,5 @@ if [ "$2" != "" ] ; then
 fi
 
 mkdir -p $DOWNLOAD
-ssh -t $REMOTE "cd $DATA && tar -czf $FOLDER.tar.gz $FOLDER $FOLDER*.log $FOLDER*.clog logs/$FOLDER"
+ssh -i /Users/patrickwatters/aws/us-west-2-kp.pem -t $REMOTE "cd $DATA && tar -czf $FOLDER.tar.gz $FOLDER $FOLDER*.log $FOLDER*.clog logs/$FOLDER"
 scp $REMOTE:$DATA/$FOLDER.tar.gz $DOWNLOAD

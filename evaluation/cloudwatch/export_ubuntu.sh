@@ -1,21 +1,27 @@
 #!/bin/bash
 LAMBDA="/aws/lambda/"
 FILE="log/"
-LOG_PREFIX="Store1VPCNode"
+LOG_PREFIX="CacheNode"
 COLOROK="\e[32m"
 COLORFAIL="\e[31m"
 ENDCOLOR="\e[0m"
 
 PREFIX=$1
-start=$2
-end=$3
+#start=$2
+#end=$3
+start='2023-06-08 00:00:00'
+end='2023-06-09 00:00:00'
+# Convert date into seconds (Format is %s)
+#startTime=$(date -d "$start" +%s)000
+#endTime=$(date -d "$end" +%s)000
 
 # Convert date into seconds (Format is %s)
-startTime=$(date -d "$start" +%s)000
-endTime=$(date -d "$end" +%s)000
+startTime=$(date  -j -f "%Y-%m-%d %H:%M:%S" "$start" +%s)000
+endTime=$(date  -j -f "%Y-%m-%d %H:%M:%S" "$end" +%s)000
+
 
 FROM=0
-TO=399
+TO=100
 if [ "$4" != "" ] ; then
   FROM=$4
   TO=$4
@@ -36,7 +42,7 @@ function wait_task(){
   fi
   
   # Wait for the end the last task: timeout in 10 min
-  for j in {0..300}
+  for j in {0..100}
   do
     sleep 2s
     STATUSCODE=`aws logs describe-export-tasks --task-id "$RUNNING" | grep code | awk -F \" '{ print $4 }'`
@@ -73,7 +79,7 @@ do
   for k in {0..10}
   do
     echo "exporting $LAMBDA$LOG_PREFIX$i"
-    RUNNING=`aws logs create-export-task --log-group-name $LAMBDA$LOG_PREFIX$i --from ${startTime} --to ${endTime} --destination "sionreview.datapool" --destination-prefix $FILE$PREFIX$LOG_PREFIX$i | grep taskId | awk -F \" '{ print $4 }'`
+    RUNNING=`aws logs create-export-task --log-group-name $LAMBDA$LOG_PREFIX$i --from ${startTime} --to ${endTime} --destination "sion-datapool" --destination-prefix $FILE$PREFIX$LOG_PREFIX$i | grep taskId | awk -F \" '{ print $4 }'`
     if [ "$RUNNING" == "" ] ; then
       if [ k == 2 ] ; then
         echo "abort"
