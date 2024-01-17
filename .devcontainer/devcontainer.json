@@ -1,0 +1,12 @@
+{
+    "name": "sion",
+    "context": "..",
+    "dockerFile": "./Dockerfileckerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.go"
+            ]
+        }
+    }
+}
