@@ -3,3 +3,7 @@ bin/proxy
 bin/lambda
 log
 _proxy.clog
+log
+_proxy.clog
+lambda/lambda
+lambda/lambda.zip

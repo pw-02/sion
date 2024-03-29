@@ -3,7 +3,7 @@
 BASE=`pwd`/`dirname $0`
 DEPLOY_PREFIX="CacheNode"
 DEPLOY_FROM=0
-DEPLOY_CLUSTER=100
+DEPLOY_CLUSTER=99
 ARG_PROMPT="[num_functions]"
 
 EMPH="\033[1;33m"

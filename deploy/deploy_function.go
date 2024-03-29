@@ -29,21 +29,22 @@ var (
 	prefix  = flag.String("prefix", "CacheNode", "function name prefix")
 	vpc     = flag.Bool("vpc", false, "vpc config")
 	key     = flag.String("key", "lambda", "key for handler and file name")
-	from    = flag.Int64("from", 0, "the number of lambda deployment involved")
-	to      = flag.Int64("to", 400, "the number of lambda deployment involved")
-	batch   = flag.Int64("batch", 5, "batch Number, no need to modify")
-	mem     = flag.Int64("mem", 256, "the memory of lambda")
-	bucket  = flag.String("S3", "sion.default", "S3 bucket for lambda code")
+
+	from   = flag.Int64("from", 0, "the number of lambda deployment involved")
+	to     = flag.Int64("to", 400, "the number of lambda deployment involved")
+	batch  = flag.Int64("batch", 5, "batch Number, no need to modify")
+	mem    = flag.Int64("mem", 256, "the memory of lambda")
+	bucket = flag.String("S3", "sion.default", "S3 bucket for lambda code")
 
 	subnet = []*string{
 		//aws.String("subnet-0f290ea8bd4f975f7"),
 		//aws.String("subnet-0c4be172173a07d63"),
-		aws.String("subnet-0991bd9e091e2bb6d"), //private subent - should not be the public one :)
-		//aws.String("subnet-0c6038f69369a69cc"),
+		aws.String("subnet-034013d4223c8fd5b"), //private subent - should not be the public one :)
+		aws.String("subnet-0a7a885bb0a98f999"),
 	}
 	securityGroup = []*string{
-		//aws.String("sg-0448774ca20e15ac3"),
-		aws.String("sg-07f93f9dbb71711ea"),
+		//aws.String("sg-04d7484a4474f9704"),
+		aws.String("sg-01e32e335c30cea50"),
 	}
 )
 
@@ -148,9 +149,10 @@ func createFunction(name string, svc *lambda.Lambda) {
 		Handler:      aws.String(*key),
 		MemorySize:   aws.Int64(*mem),
 		Role:         aws.String(ROLE),
-		Runtime:      aws.String("go1.x"),
-		Timeout:      aws.Int64(*timeout),
-		VpcConfig:    vpcConfig,
+		// Runtime:      aws.String("go1.x"),
+		Runtime:   aws.String("provided.al2023"),
+		Timeout:   aws.Int64(*timeout),
+		VpcConfig: vpcConfig,
 	}
 
 	result, err := svc.CreateFunction(input)

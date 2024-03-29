@@ -3,6 +3,7 @@
 BASE=`pwd`/`dirname $0`
 DEPLOY_PREFIX="CacheNode"
 KEY="lambda"
+
 DEPLOY_FROM=0
 DEPLOY_CLUSTER=100
 DEPLOY_TO=$((DEPLOY_CLUSTER-1))
@@ -34,13 +35,16 @@ if [ "$CODE" == "-code" ] ; then
     fi
     
     if [ ! $NO_BUILD ] ; then
-        cd $BASE/../lambda
+
+        cd $BASE/../lambda 
+
         echo "Compiling lambda code..."
       
-        GOOS=linux GOARCH=amd64 go build
+        GOOS=linux GOARCH=amd64 go build -o bootstrap
 
         echo "Compressing file..."
-        zip $KEY $KEY
+        # zip $KEY $KEY
+        zip $KEY bootstrap
         echo "Putting code zip to s3"
         aws s3api put-object --bucket ${S3} --key $KEY.zip --body $KEY.zip
     fi
