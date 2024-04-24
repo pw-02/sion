@@ -39,12 +39,12 @@ var (
 	subnet = []*string{
 		//aws.String("subnet-0f290ea8bd4f975f7"),
 		//aws.String("subnet-0c4be172173a07d63"),
-		aws.String("subnet-034013d4223c8fd5b"), //private subent - should not be the public one :)
-		aws.String("subnet-0a7a885bb0a98f999"),
+		aws.String("subnet-0719017fb24af22ac"), //private subent - should not be the public one :)
+		aws.String("subnet-076f5a2c0e07e6b1e"),
 	}
 	securityGroup = []*string{
 		//aws.String("sg-04d7484a4474f9704"),
-		aws.String("sg-01e32e335c30cea50"),
+		aws.String("sg-0e3cfe7dde2d319b2"),
 	}
 )
 
