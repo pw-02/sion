@@ -153,7 +153,7 @@ func createFunction(name string, svc *lambda.Lambda) {
 		Runtime:   aws.String("provided.al2023"),
 		Timeout:   aws.Int64(*timeout),
 		VpcConfig: vpcConfig,
-	}
+	} //
 
 	result, err := svc.CreateFunction(input)
 	if err != nil {
