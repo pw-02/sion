@@ -32,7 +32,7 @@ const LambdaPrefix = "CacheNode"
 const AWSRegion = "us-west-2"
 
 // LambdaMaxDeployments Number of Lambda function deployments available.
-const LambdaMaxDeployments = 120
+const LambdaMaxDeployments = 800
 
 // Mode of cluster.
 const StaticCluster = "static"
@@ -79,7 +79,7 @@ const RecoverRate = 40 * 1000000 // Not actually used.
 const BackupsPerInstance = 20 // (InstanceCapacity - InstanceOverhead) / RecoverRate
 
 // Each bucket's active duration
-const BucketDuration = 10 // min
+const BucketDuration = 5 // min
 
 // Number of buckets that warmup every InstanceWarmTimeout
 const NumActiveBuckets = 6
