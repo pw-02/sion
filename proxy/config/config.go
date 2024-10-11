@@ -36,7 +36,7 @@ const LambdaMaxDeployments = 1000
 // Mode of cluster.
 const StaticCluster = "static"
 const WindowCluster = "window"
-const Cluster = StaticCluster
+const Cluster = WindowCluster
 
 // Size of a slice if the cluster implementation support. Client library use this value to initialize chunk placements.
 const SliceSize = 100
