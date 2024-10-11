@@ -104,7 +104,7 @@ var (
 	TriggerTimeout = 1 * time.Second // Triggering cost is about 20ms, set large enough to avoid exceeded timeout
 	// TODO: Make RTT dynamic, global or per instance.
 	RTT                   = 20 * time.Millisecond
-	DefaultConnectTimeout = 200 * time.Millisecond // Decide by RTT.
+	DefaultConnectTimeout = 1000 * time.Millisecond // Decide by RTT.
 	MaxConnectTimeout     = 1 * time.Second
 	PromisedGoodDue       = 1 * time.Second // Keep consistent with lambda/lifetime/timeout.TICK_ERROR_EXTEND
 	MinValidationInterval = RTT             // MinValidationInterval The minimum interval between validations.
