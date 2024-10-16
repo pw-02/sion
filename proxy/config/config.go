@@ -95,4 +95,5 @@ const ActiveReplica = 2 //min
 // ProxyList Ip addresses and ports in the format "ip:port" of proxies.
 // If running on one proxy, then can be left empty. For multi-proxies deployment, build static proxy list here.
 // Private ip should be used if Lambda VPC is enabled.
-var ProxyList []string
+// var ProxyList ["10.0.17.5:6378","10.0.17.5:6378","10.0.17.5:6378","10.0.17.5:6378"]string
+var ProxyList = []string{"10.0.17.5:6378", "10.0.17.5:6378", "10.0.17.5:6378", "10.0.17.5:6378"}
