@@ -96,4 +96,4 @@ const ActiveReplica = 2 //min
 // If running on one proxy, then can be left empty. For multi-proxies deployment, build static proxy list here.
 // Private ip should be used if Lambda VPC is enabled.
 // var ProxyList ["10.0.17.5:6378","10.0.17.5:6378","10.0.17.5:6378","10.0.17.5:6378"]string
-var ProxyList = []string{"10.0.17.5:6378", "10.0.17.5:6378", "10.0.17.5:6378", "10.0.17.5:6378"}
+var ProxyList = []string{"10.0.17.5:6378", "10.0.19.176:6378", "10.0.19.231:6378", "10.0.28.39:6378"}
