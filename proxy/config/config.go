@@ -9,7 +9,8 @@ import (
 )
 
 // FLAG_FIXED_INTERVAL_WARMUP warms up lambda with fixed interval regardless workload.
-const FLAG_FIXED_INTERVAL_WARMUP = 0x0001
+// const FLAG_FIXED_INTERVAL_WARMUP = 0x0001
+const FLAG_FIXED_INTERVAL_WARMUP = 0
 
 // FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION enables D+P optimization on client side.
 const FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION = 0x0002
@@ -46,7 +47,7 @@ const SliceSize = 100
 
 // NumLambdaClusters Number of Lambda function deployments initiated on launching.
 // For window cluster, this must be at least D+P
-const NumLambdaClusters = 16
+const NumLambdaClusters = 12
 
 // LambdaStoreName Obsoleted. Name of Lambda function for replica version.
 const LambdaStoreName = "LambdaStore"
