@@ -38,7 +38,7 @@ const LambdaMaxDeployments = 400
 // Mode of cluster.
 const StaticCluster = "static"
 const WindowCluster = "window"
-const Cluster = StaticCluster
+const Cluster = WindowCluster
 
 // Size of a slice if the cluster implementation support. Client library use this value to initialize chunk placements.
 const SliceSize = 100
@@ -77,7 +77,7 @@ const ServerPublicIp = "" // Leave it empty if Lambda VPC is enabled.
 const RecoverRate = 40 * 1000000 // Not actually used.
 
 // BackupsPerInstance  Number of backup instances used for parallel recovery.
-const BackupsPerInstance = 20 // (InstanceCapacity - InstanceOverhead) / RecoverRate
+const BackupsPerInstance = 0 // (InstanceCapacity - InstanceOverhead) / RecoverRate
 
 // Each bucket's active duration
 const BucketDuration = 10 // min
