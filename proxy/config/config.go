@@ -46,7 +46,7 @@ const SliceSize = 100
 
 // NumLambdaClusters Number of Lambda function deployments initiated on launching.
 // For window cluster, this must be at least D+P
-const NumLambdaClusters = 13
+const NumLambdaClusters = 16
 
 // LambdaStoreName Obsoleted. Name of Lambda function for replica version.
 const LambdaStoreName = "LambdaStore"
