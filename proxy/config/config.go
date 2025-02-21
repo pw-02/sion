@@ -19,7 +19,8 @@ const FLAG_ENABLE_LOCAL_CACHE = 0x0004
 
 // const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS | protocol.FLAG_ENABLE_PERSISTENT
 
-const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
+// const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
+const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
 
 //const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS
 
