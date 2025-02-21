@@ -9,8 +9,7 @@ import (
 )
 
 // FLAG_FIXED_INTERVAL_WARMUP warms up lambda with fixed interval regardless workload.
-// const FLAG_FIXED_INTERVAL_WARMUP = 0x0001
-const FLAG_FIXED_INTERVAL_WARMUP = 0
+const FLAG_FIXED_INTERVAL_WARMUP = 0x0001
 
 // FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION enables D+P optimization on client side.
 const FLAG_CLIENTSIDE_FIRSTD_OPTIMIZATION = 0x0002
@@ -20,8 +19,7 @@ const FLAG_ENABLE_LOCAL_CACHE = 0x0004
 
 // const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS | protocol.FLAG_ENABLE_PERSISTENT
 
-// const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
-const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
+const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
 
 //const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS
 
@@ -53,10 +51,10 @@ const NumLambdaClusters = 12
 const LambdaStoreName = "LambdaStore"
 
 // InstanceWarmTimout Interval to warmup Lambda functions.
-const InstanceWarmTimeout = 1 * time.Minute
+const InstanceWarmTimeout = 10000000 * time.Minute
 
 // Instance degrade warmup interval
-const InstanceDegradeWarmTimeout = 5 * time.Minute
+const InstanceDegradeWarmTimeout = 50000000 * time.Minute
 
 // InstanceCapacity Capacity of deployed Lambda functions.
 // TODO: Detectable on invocation. Can be specified by option -funcap for now.
