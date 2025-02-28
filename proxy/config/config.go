@@ -19,7 +19,7 @@ const FLAG_ENABLE_LOCAL_CACHE = 0x0004
 
 // const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS | protocol.FLAG_ENABLE_PERSISTENT
 
-const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS //| protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
+const LambdaFeatures = protocol.FLAG_ENABLE_WARMUP | protocol.FLAG_DISABLE_WAIT_FOR_COS | protocol.FLAG_ENABLE_PERSISTENT | protocol.FLAG_DISABLE_WAIT_FOR_COS
 
 //const LambdaFeatures = protocol.FLAG_DISABLE_WAIT_FOR_COS
 
@@ -51,10 +51,10 @@ const NumLambdaClusters = 12
 const LambdaStoreName = "LambdaStore"
 
 // InstanceWarmTimout Interval to warmup Lambda functions.
-const InstanceWarmTimeout = 10000000 * time.Minute
+const InstanceWarmTimeout = 1 * time.Minute //ping instance every 1 minute
 
 // Instance degrade warmup interval
-const InstanceDegradeWarmTimeout = 50000000 * time.Minute
+const InstanceDegradeWarmTimeout = 5 * time.Minute //ping instance every 5 minutes
 
 // InstanceCapacity Capacity of deployed Lambda functions.
 // TODO: Detectable on invocation. Can be specified by option -funcap for now.
