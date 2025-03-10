@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE=`pwd`/`dirname $0`
-DEPLOY_PREFIX="CacheNodeC"
+DEPLOY_PREFIX="CacheNodeD"
 KEY="lambda"
 DEPLOY_FROM=0
 DEPLOY_CLUSTER=100
