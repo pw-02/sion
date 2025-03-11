@@ -1,9 +1,9 @@
 #!/bin/bash
 
 BASE=`pwd`/`dirname $0`
-DEPLOY_PREFIX="CacheNodeA"
-DEPLOY_FROM=100
-DEPLOY_TO=400
+DEPLOY_PREFIX="CacheNodeE"
+DEPLOY_FROM=0
+DEPLOY_TO=100
 DEPLOY_CLUSTER=200
 
 ARG_PROMPT="[num_functions]"
