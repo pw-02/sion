@@ -416,7 +416,7 @@ func (mw *MovingWindow) degrade(bucket *Bucket) int {
 	}
 	mw.numActives -= len(instances)
 	bucket.state = BUCKET_COLD
-	bucket.log.Info("Degraded")
+	bucket.log.Info("Degraded. %d instances", len(instances))
 
 	return len(instances)
 }
