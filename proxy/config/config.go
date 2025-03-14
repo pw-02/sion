@@ -51,10 +51,10 @@ const NumLambdaClusters = 12
 const LambdaStoreName = "LambdaStore"
 
 // InstanceWarmTimout Interval to warmup Lambda functions.
-const InstanceWarmTimeout = 1000000 * time.Minute //ping instance every 1 minute
+const InstanceWarmTimeout = 1 * time.Minute //ping instance every 1 minute
 
 // Instance degrade warmup interval
-const InstanceDegradeWarmTimeout = 20 * time.Minute //ping instance every 5 minutes
+const InstanceDegradeWarmTimeout = 5 * time.Minute //ping instance every 5 minutes
 
 // InstanceCapacity Capacity of deployed Lambda functions.
 // TODO: Detectable on invocation. Can be specified by option -funcap for now.
@@ -80,7 +80,7 @@ const RecoverRate = 40 * 1000000 // Not actually used.
 const BackupsPerInstance = 20 // (InstanceCapacity - InstanceOverhead) / RecoverRate
 
 // Each bucket's active duration
-const BucketDuration = 10 // min
+const BucketDuration = 1 // min
 
 // Number of buckets that warmup every InstanceWarmTimeout
 const NumActiveBuckets = 6
