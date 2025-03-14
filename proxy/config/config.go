@@ -87,7 +87,7 @@ const NumActiveBuckets = 1
 
 // Number of buckets before expiring
 // Buckets beyond NumActiveBuckets but within ExpireBucketsNum will get degraded warmup: InstanceDegradeWarmTimeout
-const NumAvailableBuckets = 2
+const NumAvailableBuckets = 1
 
 // Async migrate control
 const ActiveReplica = 2 //min
