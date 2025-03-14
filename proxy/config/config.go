@@ -51,7 +51,7 @@ const NumLambdaClusters = 12
 const LambdaStoreName = "LambdaStore"
 
 // InstanceWarmTimout Interval to warmup Lambda functions.
-const InstanceWarmTimeout = 20 * time.Minute //ping instance every 1 minute
+const InstanceWarmTimeout = 1000000 * time.Minute //ping instance every 1 minute
 
 // Instance degrade warmup interval
 const InstanceDegradeWarmTimeout = 20 * time.Minute //ping instance every 5 minutes
