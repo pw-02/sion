@@ -107,7 +107,7 @@ func (p *LRUPlacer) NewMeta(reqId string, key string, size int64, dChunks, pChun
 
 func (p *LRUPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Command) (*Meta, MetaPostProcess, error) {
 	chunkId := newMeta.lastChunk
-	p.log.Info("InsertAndPlace: key: %s, chunkId: %d", key, chunkId)
+	// p.log.Info("InsertAndPlace: key: %s, chunkId: %d", key, chunkId)
 
 	meta, got, err := p.store.GetOrInsert(key, newMeta)
 	if err != nil {
@@ -116,7 +116,7 @@ func (p *LRUPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Command)
 	}
 	if got {
 		// Only copy placement assignment if the chunk has not been confirm.
-		p.log.Info("InsertAndPlace: got: %v, meta: %v", got, meta)
+		// p.log.Info("InsertAndPlace: got: %v, meta: %v", got, meta)
 		if meta.placerMeta == nil || !meta.placerMeta.(*LRUPlacerMeta).confirmed[chunkId] {
 			meta.Placement[chunkId] = newMeta.Placement[chunkId]
 		}
@@ -129,7 +129,7 @@ func (p *LRUPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Command)
 	p.beforePlacing(meta, chunkId, cmd)
 
 	_, post, err := p.Place(meta, chunkId, cmd)
-	p.log.Info("InsertAndPlace: meta: %v, post: %v, err: %v", meta, post, err)
+	// p.log.Info("InsertAndPlace: meta: %v, post: %v, err: %v", meta, post, err)
 	return meta, post, err
 }
 
@@ -197,6 +197,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 
 	// Check if a replacement decision has been made.
 	if !IsPlacementEmpty(placerMeta.swapMap) {
+		p.log.Debug("FindPlacement: %s@%d, swapMap: %v", meta.Key, chunkId, placerMeta.swapMap)
 		meta.Placement[chunkId] = placerMeta.swapMap[chunkId]
 		placerMeta.confirm(chunkId)
 		// Deleted by Tianium: 20221102
