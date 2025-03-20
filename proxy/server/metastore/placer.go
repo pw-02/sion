@@ -157,10 +157,10 @@ func (l *DefaultPlacer) Place(meta *Meta, chunkId int, cmd types.Command) (*lamb
 
 			// Check if scaling is reqired.
 			// NOTE: It is the responsibility of the cluster to handle duplicated events.
-			if l.testChunk(ins, 0) {
-				l.log.Info("Insuffcient storage reported %d: %d of %d, trigger scaling...", ins.Id(), size, ins.Meta.EffectiveCapacity())
-				// l.cluster.Trigger(EventInsufficientStorage, &types.ScaleEvent{BaseInstance: ins, Retire: true, Reason: "capacity watermark exceeded"})
-			}
+			// if l.testChunk(ins, 0) {
+			// 	l.log.Info("Insuffcient storage reported %d: %d of %d, trigger scaling...", ins.Id(), size, ins.Meta.EffectiveCapacity())
+			// 	// l.cluster.Trigger(EventInsufficientStorage, &types.ScaleEvent{BaseInstance: ins, Retire: true, Reason: "capacity watermark exceeded"})
+			// }
 
 			return ins, nil, nil
 		}
