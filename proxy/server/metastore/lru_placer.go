@@ -167,12 +167,12 @@ func (p *LRUPlacer) MetaStats() types.MetaStoreStats {
 }
 
 // NewMeta will remap idx according to following logic:
-// 0. If an LRU relocation is present, remap according to "chunk" in relocation array.
-// 1. Base on the size of slice, remap to a instance in the group.
-// 2. If target instance is full, request an LRU relocation and restart from 0.
-// 3. If no Balancer relocation is available, request one.
-// 4. Remap to smaller "Size" of instance between target instance and remapped instance according to "chunk" in
-//    relocation array.
+//  0. If an LRU relocation is present, remap according to "chunk" in relocation array.
+//  1. Base on the size of slice, remap to a instance in the group.
+//  2. If target instance is full, request an LRU relocation and restart from 0.
+//  3. If no Balancer relocation is available, request one.
+//  4. Remap to smaller "Size" of instance between target instance and remapped instance according to "chunk" in
+//     relocation array.
 func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instance, MetaPostProcess, error) {
 	meta.mu.Lock()
 	defer meta.mu.Unlock()
@@ -299,6 +299,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 }
 
 func (p *LRUPlacer) Get(key string, chunk int) (*Meta, bool) {
+	p.log.Info("Get key: %s, chunk: %d", key, chunk)
 	meta, ok := p.store.Get(key)
 	if !ok {
 		return nil, ok
