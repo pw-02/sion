@@ -94,7 +94,7 @@ func NewLRUPlacer(store *MetaStore, cluster InstanceManager) *LRUPlacer {
 
 func (p *LRUPlacer) NewMeta(reqId string, key string, size int64, dChunks, pChunks, chunk int, chunkSize int64, lambdaId uint64, sliceSize int) *Meta {
 	meta := NewMeta(reqId, key, size, dChunks, pChunks, chunkSize)
-	p.log.Info("NewMeta: %v", meta)
+	// p.log.Info("NewMeta: %v", meta)
 	if meta.slice == nil {
 		meta.slice = p.cluster.GetSlice(sliceSize)
 	} else {
@@ -116,6 +116,7 @@ func (p *LRUPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Command)
 	}
 	if got {
 		// Only copy placement assignment if the chunk has not been confirm.
+		p.log.Info("InsertAndPlace: got: %v, meta: %v", got, meta)
 		if meta.placerMeta == nil || !meta.placerMeta.(*LRUPlacerMeta).confirmed[chunkId] {
 			meta.Placement[chunkId] = newMeta.Placement[chunkId]
 		}
@@ -128,6 +129,7 @@ func (p *LRUPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Command)
 	p.beforePlacing(meta, chunkId, cmd)
 
 	_, post, err := p.Place(meta, chunkId, cmd)
+	p.log.Info("InsertAndPlace: meta: %v, post: %v, err: %v", meta, post, err)
 	return meta, post, err
 }
 
