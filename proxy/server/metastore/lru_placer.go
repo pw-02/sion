@@ -216,7 +216,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 	confirmed := false
 
 	//print meta capacity
-	p.log.Info("Meta capacity: %d", instance.Meta.Capacity)
+	// p.log.Info("Meta capacity: %d", instance.Meta.Capacity)
 
 	if instance.Meta.Size()+uint64(meta.ChunkSize) < instance.Meta.Capacity {
 		size := instance.Meta.IncreaseSize(meta.ChunkSize)
@@ -266,6 +266,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 	// Try find a replacement
 	// p.log.Warn("lambda %d overweight triggered by %d@%s, meta: %v", assigned, chunk, meta.Key, meta)
 	// p.log.Info(p.dumpLRUPlacer())
+	p.log.Info("FindPlacement: %s@%d, assigned: %d, meta: %v", meta.Key, chunkId, assigned, meta)
 	numScaned := 0
 	for candidate, found := p.NextAvailableObject(meta, nil); !found; candidate, found = p.NextAvailableObject(meta, candidate) {
 		// p.log.Warn("lambda %d overweight triggered by %d@%s, meta: %v", assigned, chunk, meta.Key, meta)
@@ -276,6 +277,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 		}
 		numScaned++
 	}
+	p.log.Info("FindPlacement: %s@%d, assigned: %d, meta: %v, numScaned: %d", meta.Key, chunkId, assigned, meta, numScaned)
 	// p.log.Debug("meta key is: %s, chunk is %d, evicted, evicted key: %s, placement: %v", meta.Key, chunk, meta.placerMeta.evicts.Key, meta.placerMeta.evicts.Placement)
 
 	p.mu.Unlock()
