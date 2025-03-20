@@ -327,6 +327,7 @@ func (mw *MovingWindow) Daemon() {
 			return
 		// scaling out in bucket
 		case evt := <-mw.scaler:
+			mw.log.Info("Scaling out in bucket...")
 			mw.doScale(evt)
 		// for bucket rolling
 		case ts := <-timer.C:

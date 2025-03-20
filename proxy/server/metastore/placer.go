@@ -137,6 +137,7 @@ func (l *DefaultPlacer) Place(meta *Meta, chunkId int, cmd types.Command) (*lamb
 		} else if l.testChunk(ins, uint64(meta.ChunkSize)) {
 			// Recheck capacity. Capacity can be calibrated and miss post-check.
 			if l.testChunk(ins, 0) {
+				// l.log.Info("Insuffcient storage reported %d: %d of %d, trigger scaling...", ins.Id(), ins.Meta.Size(), ins.Meta.EffectiveCapacity())
 				l.log.Info("Insuffcient storage reported %d: %d of %d, trigger scaling...", ins.Id(), ins.Meta.Size(), ins.Meta.EffectiveCapacity())
 				l.cluster.Trigger(EventInsufficientStorage, &types.ScaleEvent{BaseInstance: ins, Retire: true, Reason: "capacity watermark exceeded"})
 			}
