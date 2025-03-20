@@ -64,7 +64,7 @@ const DefaultInstanceCapacity = 128 * 1000000 //1536 * 1000000 // 1GB
 const InstanceOverhead = 100 * 1000000 // MB
 
 // Threshold Scaling out avg instance size threshold
-const Threshold = 0 // Don't set beyond 0.9
+const Threshold = 0.9 // Don't set beyond 0.9
 
 // Maximum chunk per instance
 const ChunkThreshold = 125000 // Fraction, ChunkThreshold = InstanceCapacity / 100K * Threshold
@@ -87,7 +87,7 @@ const NumActiveBuckets = 1
 
 // Number of buckets before expiring
 // Buckets beyond NumActiveBuckets but within ExpireBucketsNum will get degraded warmup: InstanceDegradeWarmTimeout
-const NumAvailableBuckets = 0
+const NumAvailableBuckets = 1
 
 // Async migrate control
 const ActiveReplica = 2 //min
