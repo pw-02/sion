@@ -277,7 +277,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 		}
 		numScaned++
 	}
-	p.log.Info("FindPlacement: %s@%d, assigned: %d, meta: %v, numScaned: %d", meta.Key, chunkId, assigned, meta, numScaned)
+	// p.log.Info("FindPlacement: %s@%d, assigned: %d, meta: %v, numScaned: %d", meta.Key, chunkId, assigned, meta, numScaned)
 	// p.log.Debug("meta key is: %s, chunk is %d, evicted, evicted key: %s, placement: %v", meta.Key, chunk, meta.placerMeta.evicts.Key, meta.placerMeta.evicts.Placement)
 
 	p.mu.Unlock()
