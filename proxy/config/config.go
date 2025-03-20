@@ -58,7 +58,7 @@ const InstanceDegradeWarmTimeout = 5 * time.Minute //ping instance every 5 minut
 
 // InstanceCapacity Capacity of deployed Lambda functions.
 // TODO: Detectable on invocation. Can be specified by option -funcap for now.
-const DefaultInstanceCapacity = 1536 * 1000000 // 1GB
+const DefaultInstanceCapacity = 128 * 1000000 //1536 * 1000000 // 1GB
 
 // InstanceOverhead Memory reserved for running program on Lambda functions.
 const InstanceOverhead = 100 * 1000000 // MB
