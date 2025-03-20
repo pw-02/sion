@@ -526,7 +526,7 @@ func (mw *MovingWindow) doScale(evt *types.ScaleEvent) {
 		return
 	}
 
-	mw.log.Debug("Scaleing...")
+	mw.log.Info("Scaleing...")
 
 	// Scale
 	num := mw.numFuncSteps
@@ -534,6 +534,7 @@ func (mw *MovingWindow) doScale(evt *types.ScaleEvent) {
 		num = ((evt.ScaleTarget-1)/mw.numFuncSteps + 1) * mw.numFuncSteps
 	}
 	lastLen := bucket.len()
+	mw.log.Info("num: %d, lastLen: %d", num, lastLen)
 	newGins, err := bucket.scale(num)
 	if err != nil {
 		mw.log.Error("Failed to scale bucket %d by %d(%d) : %v", bucket.id, num, lastLen, err)
