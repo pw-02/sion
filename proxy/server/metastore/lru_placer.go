@@ -214,6 +214,10 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 	}
 	instance := p.cluster.Instance(assigned)
 	confirmed := false
+
+	//print meta capacity
+	p.log.Info("Meta capacity: %d", instance.Meta.Capacity)
+
 	if instance.Meta.Size()+uint64(meta.ChunkSize) < instance.Meta.Capacity {
 		size := instance.Meta.IncreaseSize(meta.ChunkSize)
 		if size < instance.Meta.Capacity {
@@ -223,7 +227,7 @@ func (p *LRUPlacer) FindPlacement(meta *Meta, chunkId int) (*lambdastore.Instanc
 
 			// We can add size to instance safely, the allocated space is reserved for this chunk even set operation may fail.
 			// This allow the client to reset the chunk without affecting the placement.
-			p.log.Debug("Lambda %d size updated: %d of %d (key:%d@%s, Δ:%d).",
+			p.log.Info("Lambda %d size updated: %d of %d (key:%d@%s, Δ:%d).",
 				assigned, size, instance.Meta.Capacity, chunkId, meta.Key, meta.ChunkSize)
 
 			// Deleted by Tianium: 20221102
