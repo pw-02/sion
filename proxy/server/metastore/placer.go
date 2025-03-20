@@ -63,7 +63,7 @@ func (l *DefaultPlacer) NewMeta(reqId string, key string, size int64, dChunks, p
 
 func (l *DefaultPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Command) (*Meta, MetaPostProcess, error) {
 	chunkId := newMeta.lastChunk
-
+	l.log.Info("Inserting meta for key %s, chunk %d", key, chunkId)
 	meta, got, err := l.metaStore.GetOrInsert(key, newMeta)
 	if err != nil {
 		newMeta.close()
@@ -71,6 +71,7 @@ func (l *DefaultPlacer) InsertAndPlace(key string, newMeta *Meta, cmd types.Comm
 	}
 	if got {
 		newMeta.close()
+		l.log.Info("Meta for key %s, chunk %d already exists", key, chunkId)
 	}
 	cmd.GetRequest().Key = meta.ChunkKey(chunkId)
 	cmd.GetRequest().Info = meta
@@ -115,6 +116,7 @@ func (l *DefaultPlacer) Place(meta *Meta, chunkId int, cmd types.Command) (*lamb
 	for {
 		// Not test is 0 based.
 		if test >= instances.Len() {
+			l.log.Info("Failed to place chunk %d, trigger scaling...", chunkId)
 			// Rotation safe: because rotation will not affect the number of active instances.
 			instances = l.cluster.GetActiveInstances((test/len(meta.Placement) + 1) * len(meta.Placement)) // Force scale to ceil(test/meta.chunks)
 
@@ -149,7 +151,7 @@ func (l *DefaultPlacer) Place(meta *Meta, chunkId int, cmd types.Command) (*lamb
 			// Placed successfully
 			key := meta.ChunkKey(chunkId)
 			numChunks, size := ins.AddChunk(key, meta.ChunkSize)
-			l.log.Debug("Lambda %d size updated: %d of %d (key:%s, Δ:%d, chunks:%d).",
+			l.log.Info("Lambda %d size updated: %d of %d (key:%s, Δ:%d, chunks:%d).",
 				ins.Id(), size, ins.Meta.EffectiveCapacity(), key, meta.ChunkSize, numChunks)
 
 			// Check if scaling is reqired.
