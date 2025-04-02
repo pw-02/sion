@@ -33,12 +33,12 @@ const LambdaPrefix = "CacheNodeA" //
 const AWSRegion = "us-west-2"
 
 // LambdaMaxDeployments Number of Lambda function deployments available.
-const LambdaMaxDeployments = 1
+const LambdaMaxDeployments = 12
 
 // Mode of cluster.
 const StaticCluster = "static"
 const WindowCluster = "window"
-const Cluster = StaticCluster
+const Cluster = WindowCluster
 
 // Size of a slice if the cluster implementation support. Client library use this value to initialize chunk placements.
 const SliceSize = 100
@@ -58,7 +58,7 @@ const InstanceDegradeWarmTimeout = 5 * time.Minute //ping instance every 5 minut
 
 // InstanceCapacity Capacity of deployed Lambda functions.
 // TODO: Detectable on invocation. Can be specified by option -funcap for now.
-const DefaultInstanceCapacity = 128 * 1000000 //1536 * 1000000 // 1GB
+const DefaultInstanceCapacity = 2048 * 1000000 //1536 * 1000000 // 1GB
 
 // InstanceOverhead Memory reserved for running program on Lambda functions.
 const InstanceOverhead = 100 * 1000000 // MB
@@ -77,17 +77,17 @@ const ServerPublicIp = "" // Leave it empty if Lambda VPC is enabled.
 const RecoverRate = 40 * 1000000 // Not actually used.
 
 // BackupsPerInstance  Number of backup instances used for parallel recovery.
-const BackupsPerInstance = 1 // (InstanceCapacity - InstanceOverhead) / RecoverRate
+const BackupsPerInstance = 10 // (InstanceCapacity - InstanceOverhead) / RecoverRate
 
 // Each bucket's active duration
-const BucketDuration = 1 // min
+const BucketDuration = 10 // min
 
 // Number of buckets that warmup every InstanceWarmTimeout
-const NumActiveBuckets = 1
+const NumActiveBuckets = 6
 
 // Number of buckets before expiring
 // Buckets beyond NumActiveBuckets but within ExpireBucketsNum will get degraded warmup: InstanceDegradeWarmTimeout
-const NumAvailableBuckets = 1
+const NumAvailableBuckets = 18
 
 // Async migrate control
 const ActiveReplica = 2 //min
