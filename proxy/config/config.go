@@ -33,7 +33,7 @@ const LambdaPrefix = "CacheNodeA" //
 const AWSRegion = "us-west-2"
 
 // LambdaMaxDeployments Number of Lambda function deployments available.
-const LambdaMaxDeployments = 12
+const LambdaMaxDeployments = 400
 
 // Mode of cluster.
 const StaticCluster = "static"
